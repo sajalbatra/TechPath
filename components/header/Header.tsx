@@ -18,7 +18,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet"
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -120,8 +120,8 @@ export default function Header() {
 
 // List Item Component for Navigation Menu
 const ListItem = ({title, href, children, ...props }: { title: string, href: string, children: React.ReactNode }) => {
-  const { pathname } = useRouter();
-  const isActive = pathname === href;
+  const  router  = useRouter();
+  const isActive = router.pathname === href;
 
   return (
     <li>
