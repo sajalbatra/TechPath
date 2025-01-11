@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
 import { BookOpen, Menu } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   Sheet,
   SheetContent,
@@ -22,7 +22,9 @@ import { useRouter } from 'next/router'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
-
+  useEffect(()=>{
+    console.log(isOpen)
+  },[])
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-sm">
       <div className="container mx-auto px-4">
@@ -117,7 +119,7 @@ export default function Header() {
 }
 
 // List Item Component for Navigation Menu
-const ListItem = ({ className, title, href, children, ...props }: { title: string, href: string, children: React.ReactNode }) => {
+const ListItem = ({title, href, children, ...props }: { title: string, href: string, children: React.ReactNode }) => {
   const { pathname } = useRouter();
   const isActive = pathname === href;
 

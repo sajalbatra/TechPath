@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
-import { ArrowRight, Code2, Database, Brain, Cloud, Sparkles, Users, BookOpen } from 'lucide-react'
+import { ArrowRight, Code2, Database, Brain, Sparkles, Users, BookOpen } from 'lucide-react'
 import Link from "next/link"
 import Image from "next/image"
 
