@@ -429,7 +429,7 @@ export const siteData = {
         links: [
           { text: "Twitter", href: "https://x.com/sajal_batra" },
           { text: "GitHub", href: "https://github.com/sajalbatra" },
-          { text: "Instagram", href: "https://instagram/sajalbatra.js" },
+          { text: "Instagram", href: "https://instagram.com/sajalbatra.js" },
         ],
     copyright: "© 2025 NULLSPHERE. All rights reserved.",
   },
