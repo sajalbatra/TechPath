@@ -1,0 +1,52 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#7678ED" opacity="0.1" />
+  <rect width="400" height="400" rx="20" ry="20" fill="#7678ED" opacity="0.05" />
+  
+  <!-- Decorative elements -->
+  <path d="M0,400 L400,400 L400,300 C300,350 100,250 0,320 Z" fill="#7678ED" opacity="0.2" />
+  
+  <!-- Design elements -->
+  <rect x="130" y="130" width="140" height="80" rx="5" ry="5" fill="#7678ED" opacity="0.3" />
+  <rect x="130" y="220" width="60" height="60" rx="5" ry="5" fill="#7678ED" opacity="0.5" />
+  <rect x="210" y="220" width="60" height="25" rx="5" ry="5" fill="#7678ED" opacity="0.4" />
+  <rect x="210" y="255" width="60" height="25" rx="5" ry="5" fill="#7678ED" opacity="0.2" />
+  
+  <!-- UI Elements -->
+  <circle cx="150" cy="150" r="10" fill="#7678ED" />
+  <rect x="170" y="145" width="80" height="10" rx="5" ry="5" fill="#7678ED" />
+  <rect x="170" y="165" width="60" height="10" rx="5" ry="5" fill="#7678ED" opacity="0.7" />
+  <rect x="170" y="185" width="70" height="10" rx="5" ry="5" fill="#7678ED" opacity="0.5" />
+  
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#7678ED">UI/UX</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#7678ED">Design</text>
+  
+  <!-- Icons -->
+  <g transform="translate(100, 295)">
+    <!-- Figma Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#F24E1E" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Figma</text>
+  </g>
+  
+  <g transform="translate(150, 295)">
+    <!-- Adobe XD Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#FF61F6" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">XD</text>
+  </g>
+  
+  <g transform="translate(200, 295)">
+    <!-- Sketch Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#F7B500" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="black">Sketch</text>
+  </g>
+  
+  <g transform="translate(250, 295)">
+    <!-- Wireframing Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#6C757D" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="white">Wire</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#7678ED">Intuitive User Experiences</text>
+</svg>

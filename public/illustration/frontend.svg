@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#4361ee" opacity="0.1" />
+  <rect width="400" height="400" rx="20" ry="20" fill="#4361ee" opacity="0.05" />
+  
+  <!-- Decorative elements -->
+  <path d="M0,400 L400,400 L400,300 C300,350 100,250 0,320 Z" fill="#4361ee" opacity="0.2" />
+  <circle cx="50" cy="50" r="20" fill="#4361ee" opacity="0.3" />
+  <circle cx="350" cy="50" r="15" fill="#4361ee" opacity="0.3" />
+  <circle cx="350" cy="350" r="25" fill="#4361ee" opacity="0.3" />
+  
+  <!-- Tech connectors - code brackets -->
+  <path d="M100,200 L150,150 L150,250 L100,200" fill="none" stroke="#4361ee" stroke-width="5" />
+  <path d="M300,200 L250,150 L250,250 L300,200" fill="none" stroke="#4361ee" stroke-width="5" />
+  
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4361ee">Frontend</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4361ee">Development</text>
+  
+  <!-- Icons -->
+  <g transform="translate(110, 170)">
+    <!-- HTML Icon -->
+    <rect x="0" y="0" width="50" height="50" rx="5" fill="#E44D26" />
+    <text x="25" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">HTML</text>
+  </g>
+  
+  <g transform="translate(175, 170)">
+    <!-- CSS Icon -->
+    <rect x="0" y="0" width="50" height="50" rx="5" fill="#2965F1" />
+    <text x="25" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">CSS</text>
+  </g>
+  
+  <g transform="translate(240, 170)">
+    <!-- JS Icon -->
+    <rect x="0" y="0" width="50" height="50" rx="5" fill="#F7DF1E" />
+    <text x="25" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="black">JS</text>
+  </g>
+  
+  <g transform="translate(130, 235)">
+    <!-- React Icon -->
+    <rect x="0" y="0" width="50" height="50" rx="5" fill="#61DAFB" />
+    <text x="25" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="black">React</text>
+  </g>
+  
+  <g transform="translate(220, 235)">
+    <!-- Vue Icon -->
+    <rect x="0" y="0" width="50" height="50" rx="5" fill="#42B883" />
+    <text x="25" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Vue</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4361ee">Modern Web Interfaces</text>
+</svg>

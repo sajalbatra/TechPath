@@ -1,0 +1,48 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#5F4B8B" opacity="0.1" />
+  <rect width="400" height="400" rx="20" ry="20" fill="#5F4B8B" opacity="0.05" />
+  
+  <!-- Decorative elements -->
+  <path d="M0,400 L400,400 L400,300 C300,350 100,250 0,320 Z" fill="#5F4B8B" opacity="0.2" />
+  
+  <!-- Cloud -->
+  <path d="M200,130 C170,130 160,155 170,170 C145,170 130,190 140,210 C130,220 140,240 160,240 L240,240 C265,240 275,220 265,205 C275,185 265,170 250,170 C255,150 240,130 200,130 Z" fill="#5F4B8B" opacity="0.3" />
+  
+  <!-- Infinity/CI-CD loop -->
+  <path d="M125,200 C95,180 95,220 125,200 M125,200 C155,180 155,220 125,200" stroke="#5F4B8B" stroke-width="5" fill="none" />
+  <path d="M275,200 C245,180 245,220 275,200 M275,200 C305,180 305,220 275,200" stroke="#5F4B8B" stroke-width="5" fill="none" />
+  <line x1="125" y1="200" x2="275" y2="200" stroke="#5F4B8B" stroke-width="5" />
+  
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#5F4B8B">DevOps</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#5F4B8B">and Cloud</text>
+  
+  <!-- Icons -->
+  <g transform="translate(100, 280)">
+    <!-- Docker Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#2496ED" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Docker</text>
+  </g>
+  
+  <g transform="translate(150, 280)">
+    <!-- AWS Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#FF9900" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">AWS</text>
+  </g>
+  
+  <g transform="translate(200, 280)">
+    <!-- CI/CD Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#4CAF50" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">CI/CD</text>
+  </g>
+  
+  <g transform="translate(250, 280)">
+    <!-- Kubernetes Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#326CE5" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Kube</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#5F4B8B">Infrastructure and Automation</text>
+</svg>

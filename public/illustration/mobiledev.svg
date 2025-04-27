@@ -1,0 +1,52 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#F26419" opacity="0.1" />
+  <rect width="400" height="400" rx="20" ry="20" fill="#F26419" opacity="0.05" />
+  
+  <!-- Decorative elements -->
+  <path d="M0,400 L400,400 L400,300 C300,350 100,250 0,320 Z" fill="#F26419" opacity="0.2" />
+  
+  <!-- Mobile phone outline -->
+  <rect x="145" y="120" width="110" height="200" rx="20" ry="20" stroke="#F26419" stroke-width="4" fill="none" />
+  <rect x="165" y="140" width="70" height="120" rx="5" ry="5" fill="#F26419" opacity="0.2" />
+  <circle cx="200" cy="290" r="12" stroke="#F26419" stroke-width="2" fill="none" />
+  
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#F26419">Mobile</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#F26419">Development</text>
+  
+  <!-- Icons -->
+  <g transform="translate(90, 280)">
+    <!-- Android Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#3DDC84" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="black">Android</text>
+  </g>
+  
+  <g transform="translate(140, 280)">
+    <!-- iOS Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#000000" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">iOS</text>
+  </g>
+  
+  <g transform="translate(190, 280)">
+    <!-- React Native Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#61DAFB" />
+    <text x="20" y="18" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="black">React</text>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="black">Native</text>
+  </g>
+  
+  <g transform="translate(240, 280)">
+    <!-- Flutter Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#0553B1" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Flutter</text>
+  </g>
+  
+  <g transform="translate(290, 280)">
+    <!-- Swift Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#FA7343" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Swift</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#F26419">Native and Cross-Platform Apps</text>
+</svg>

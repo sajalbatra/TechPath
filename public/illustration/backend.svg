@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#2B9348" opacity="0.1" />
+  <rect width="400" height="400" rx="20" ry="20" fill="#2B9348" opacity="0.05" />
+  
+  <!-- Decorative elements -->
+  <path d="M0,400 L400,400 L400,300 C300,350 100,250 0,320 Z" fill="#2B9348" opacity="0.2" />
+  <rect x="50" y="50" width="30" height="30" fill="#2B9348" opacity="0.3" />
+  <rect x="320" y="50" width="30" height="30" fill="#2B9348" opacity="0.3" />
+  <rect x="320" y="320" width="30" height="30" fill="#2B9348" opacity="0.3" />
+  
+  <!-- Server-like icons -->
+  <rect x="160" y="130" width="80" height="15" rx="2" fill="#2B9348" opacity="0.8" />
+  <rect x="160" y="150" width="80" height="15" rx="2" fill="#2B9348" opacity="0.6" />
+  <rect x="160" y="170" width="80" height="15" rx="2" fill="#2B9348" opacity="0.4" />
+  
+  <!-- Database -->
+  <ellipse cx="200" cy="220" rx="40" ry="10" fill="#2B9348" />
+  <path d="M160,220 L160,250 C160,255.5 178,260 200,260 C222,260 240,255.5 240,250 L240,220" fill="none" stroke="#2B9348" stroke-width="2" />
+  <ellipse cx="200" cy="250" rx="40" ry="10" fill="#2B9348" opacity="0.8" />
+  
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2B9348">Backend</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2B9348">Development</text>
+  
+  <!-- Icons -->
+  <g transform="translate(100, 280)">
+    <!-- Node.js Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#3C873A" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Node</text>
+  </g>
+  
+  <g transform="translate(150, 280)">
+    <!-- Python Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#306998" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Python</text>
+  </g>
+  
+  <g transform="translate(200, 280)">
+    <!-- SQL Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#336791" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">SQL</text>
+  </g>
+  
+  <g transform="translate(250, 280)">
+    <!-- API Icon -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#FF6B6B" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">API</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2B9348">Server-side and Databases</text>
+</svg>
