@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { siteData } from "@/lib/data"
 import Link from "next/link"
 import { MessageSquare, Users, Code, Compass } from "lucide-react"
-
+import ComingSoon from "@/components/commingsoon"
 export const metadata: Metadata = {
   title: "Community | TechPath",
   description: siteData.community.description,
@@ -46,12 +46,13 @@ export default function CommunityPage() {
           })}
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <Link href={siteData.community.joinButton.href} className="btn btn-primary px-8 py-3 text-lg">
             {siteData.community.joinButton.text}
           </Link>
-        </div>
+        </div> */}
       </div>
+      <ComingSoon/>
     </main>
   )
 }

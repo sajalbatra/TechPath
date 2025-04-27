@@ -52,13 +52,10 @@ export default function MyRoadmapsPage() {
 
   if (!isSignedIn) {
     return (
-      <div className="container mx-auto py-12 px-4">
+      <div className="min-h-screen mx-auto py-12 px-4">
         <div className="text-center py-10">
           <h1 className="text-3xl font-bold mb-6">My Roadmaps</h1>
           <p className="text-gray-400 mb-8">Sign in to view and manage your custom roadmaps</p>
-          <Link href="/sign-in" className="btn btn-primary px-6 py-3">
-            Sign In
-          </Link>
         </div>
       </div>
     )
