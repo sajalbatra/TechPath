@@ -4,7 +4,7 @@ import "./globals.css"
 import { siteData } from "@/lib/data"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-
+import { Analytics } from "@vercel/analytics/react"
 import {
   ClerkProvider,
   SignInButton,
@@ -66,6 +66,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
+      <Analytics/>
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
           <Navbar className="flex justify-end items-center gap-4">
