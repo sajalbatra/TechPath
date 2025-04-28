@@ -459,7 +459,7 @@ export const siteData = {
   },
 }
 
-siteData.roadmaps =[
+siteData.roadmaps = [
   {
     id: "frontend",
     title: "Frontend Development",
@@ -475,17 +475,17 @@ siteData.roadmaps =[
           {
             name: "HTML",
             theoryUrl: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-            videoUrl: "https://www.youtube.com/watch?v=kUMe1FH4CHE"
+            videoUrl: "https://www.youtube.com/watch?v=iVCzmDwIQpA" // Chai aur Code[2]
           },
           {
             name: "CSS",
             theoryUrl: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-            videoUrl: "https://www.youtube.com/watch?v=1PnVor36_40"
+            videoUrl: "https://www.youtube.com/watch?v=eiRcOPiNoDs" // Chai aur Code[3]
           },
           {
             name: "JavaScript Basics",
             theoryUrl: "https://javascript.info/",
-            videoUrl: "https://www.youtube.com/watch?v=hdI2bqOjy3c"
+            videoUrl: "https://www.youtube.com/watch?v=sscX432bMZo" // Chai aur Code[4]
           }
         ]
       },
@@ -496,17 +496,17 @@ siteData.roadmaps =[
           {
             name: "React",
             theoryUrl: "https://reactjs.org/docs/getting-started.html",
-            videoUrl: "https://www.youtube.com/watch?v=TNhaISOUy6Q"
+            videoUrl: "https://www.youtube.com/watch?v=569YZm0X5-0" // Harkirat Singh[5]
           },
           {
             name: "State Management",
             theoryUrl: "https://redux.js.org/introduction/getting-started",
-            videoUrl: "https://www.youtube.com/watch?v=LyGCTxMgxjs"
+            videoUrl: "https://www.youtube.com/watch?v=569YZm0X5-0" // Harkirat Singh (covers React state)[5]
           },
           {
             name: "CSS Frameworks",
             theoryUrl: "https://tailwindcss.com/docs",
-            videoUrl: "https://www.youtube.com/watch?v=PRxXWfZ3JJw"
+            videoUrl: "https://www.youtube.com/watch?v=HFr4h7WD6Hc" // Harkirat Singh (UI libraries: Tailwind, MUI)[7]
           }
         ]
       },
@@ -517,22 +517,22 @@ siteData.roadmaps =[
           {
             name: "Performance Optimization",
             theoryUrl: "https://developers.google.com/web/fundamentals/performance",
-            videoUrl: "https://www.youtube.com/watch?v=ZeOTZrBH_VU"
+            videoUrl: "https://www.youtube.com/watch?v=0fONene3OIA" // Piyush Garg[8]
           },
           {
             name: "Testing",
             theoryUrl: "https://jestjs.io/docs/getting-started",
-            videoUrl: "https://www.youtube.com/watch?v=7r4xVDI2vho"
+            videoUrl: "https://www.youtube.com/watch?v=pAluAXAvL7E" // JS Mastery (React Testing Crash Course)
           },
           {
             name: "Advanced Patterns",
             theoryUrl: "https://www.patterns.dev/posts/",
-            videoUrl: "https://www.youtube.com/watch?v=eqYijYh6fFc"
+            videoUrl: "https://www.youtube.com/watch?v=wwZzADqvt7E" // JS Mastery (React Design Patterns & Best Practices)
           }
         ]
       }
     ]
-  },
+  },  
   {
     id: "backend",
     title: "Backend Development",
@@ -548,17 +548,17 @@ siteData.roadmaps =[
           {
             name: "Node.js Basics",
             theoryUrl: "https://nodejs.org/en/docs/",
-            videoUrl: "https://www.youtube.com/watch?v=Oe421EPjeBE"
+            videoUrl: "https://www.youtube.com/watch?v=ohIAiuHMKMI&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo" // Harkirat Singh: Node.js Crash Course (2024)
           },
           {
             name: "Express.js",
             theoryUrl: "https://expressjs.com/en/guide/routing.html",
-            videoUrl: "https://www.youtube.com/watch?v=vjf774RKrLc"
+            videoUrl: "https://www.youtube.com/watch?v=zm0-cm5u2ak" // Harkirat Singh: Introduction to Backend, what are HTTP servers [3]
           },
           {
             name: "Database Fundamentals",
             theoryUrl: "https://docs.mongodb.com/manual/introduction/",
-            videoUrl: "https://www.youtube.com/watch?v=pWbMrx5rVBE"
+            videoUrl: "https://www.youtube.com/watch?v=7fjOw8ApZ1I" // Chai aur Code: Complete Backend Developer course | Part 1 [2]
           }
         ]
       },
@@ -569,17 +569,17 @@ siteData.roadmaps =[
           {
             name: "Authentication",
             theoryUrl: "https://jwt.io/",
-            videoUrl: "https://www.youtube.com/watch?v=mbsmsi7l3r4"
+            videoUrl: "https://www.youtube.com/watch?v=OWeruyqhiTo" // Piyush Garg: Building Node.js Authentication from Scratch [7]
           },
           {
             name: "API Design",
             theoryUrl: "https://restfulapi.net/",
-            videoUrl: "https://www.youtube.com/watch?v=ed8SzALpx1Q"
+            videoUrl: "https://www.youtube.com/watch?v=7fjOw8ApZ1I" // Chai aur Code: Complete Backend Developer course | Part 1 (API design section) [2]
           },
           {
             name: "Database Design",
             theoryUrl: "https://use-the-index-luke.com/",
-            videoUrl: "https://www.youtube.com/watch?v=jSeT4p56imw"
+            videoUrl: "https://www.youtube.com/watch?v=8k-kK3tsJFY" // Chai aur Code: Complete backend developer course part 2 (covers MongoDB aggregation and schema) [11]
           }
         ]
       },
@@ -590,22 +590,22 @@ siteData.roadmaps =[
           {
             name: "Microservices",
             theoryUrl: "https://microservices.io/",
-            videoUrl: "https://www.youtube.com/watch?v=X48VuDVv0do"
+            videoUrl: "https://www.youtube.com/watch?v=7fjOw8ApZ1I" // Chai aur Code: Complete Backend Developer course | Part 1 (advanced topics, scalable backend) [2]
           },
           {
             name: "Performance",
             theoryUrl: "https://www.youtube.com/watch?v=V4GVp2Gk_zA",
-            videoUrl: "https://www.youtube.com/watch?v=B1hJ7qRH9jc"
+            videoUrl: "https://www.youtube.com/watch?v=Vx2zPMPvmug" // Piyush Garg: Redis Crash Course (caching/performance) [10]
           },
           {
             name: "Security",
             theoryUrl: "https://owasp.org/www-project-top-ten/",
-            videoUrl: "https://www.youtube.com/watch?v=F-sFp_AvHc8"
+            videoUrl: "https://www.youtube.com/watch?v=OWeruyqhiTo" // Piyush Garg: Node.js Authentication (JWT, security best practices) [7]
           }
         ]
       }
     ]
-  },
+  },  
   {
     id: "devops",
     title: "DevOps & Cloud",
@@ -621,17 +621,17 @@ siteData.roadmaps =[
           {
             name: "Linux Fundamentals",
             theoryUrl: "https://ryanstutorials.net/linuxtutorial/",
-            videoUrl: "https://www.youtube.com/watch?v=wBp0Rb-ZJak"
+            videoUrl: "https://www.youtube.com/watch?v=CLh2ACdXNbc" // 13 Linux Commands Every Engineer Should Know (TechWorld with Nana)
           },
           {
             name: "Git & GitHub",
             theoryUrl: "https://guides.github.com/introduction/git-handbook/",
-            videoUrl: "https://www.youtube.com/watch?v=RGOj5yH7evk"
+            videoUrl: "https://www.youtube.com/watch?v=RGOj5yH7evk" // FreeCodeCamp Git & GitHub (best public intro, Nana does not have a dedicated Git intro)
           },
           {
             name: "Docker Basics",
             theoryUrl: "https://docs.docker.com/get-started/",
-            videoUrl: "https://www.youtube.com/watch?v=fqMOX6JJhGo"
+            videoUrl: "https://www.youtube.com/watch?v=3c-iBn73dDE" // Docker Tutorial for Beginners [FULL COURSE] (TechWorld with Nana)
           }
         ]
       },
@@ -642,17 +642,17 @@ siteData.roadmaps =[
           {
             name: "CI/CD",
             theoryUrl: "https://docs.github.com/en/actions",
-            videoUrl: "https://www.youtube.com/watch?v=R8_veQiYBjI"
+            videoUrl: "https://www.youtube.com/watch?v=ifN3mmPOSa0" // CI/CD Explained (TechWorld with Nana)
           },
           {
             name: "Infrastructure as Code",
             theoryUrl: "https://learn.hashicorp.com/terraform",
-            videoUrl: "https://www.youtube.com/watch?v=eHd-0JdWJWQ"
+            videoUrl: "https://www.youtube.com/watch?v=SLB_c_ayRMo" // Terraform Tutorial for Beginners (TechWorld with Nana)
           },
           {
             name: "Cloud Platforms",
             theoryUrl: "https://aws.amazon.com/getting-started/",
-            videoUrl: "https://www.youtube.com/watch?v=sR96Yn6VJY4"
+            videoUrl: "https://www.youtube.com/watch?v=ulprqHHWlng" // AWS in 10 Minutes (TechWorld with Nana)
           }
         ]
       },
@@ -663,22 +663,23 @@ siteData.roadmaps =[
           {
             name: "Kubernetes",
             theoryUrl: "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
-            videoUrl: "https://www.youtube.com/watch?v=kVW1JVQ99Ms"
+            videoUrl: "https://www.youtube.com/watch?v=X48VuDVv0do" // Kubernetes Tutorial for Beginners (TechWorld with Nana)
           },
           {
             name: "Monitoring & Logging",
             theoryUrl: "https://prometheus.io/",
-            videoUrl: "https://www.youtube.com/watch?v=9TJYWh0adfk"
+            videoUrl: "https://www.youtube.com/watch?v=h4Sl21AKiDg" // Prometheus Monitoring Tutorial (TechWorld with Nana)
           },
           {
             name: "Site Reliability Engineering",
             theoryUrl: "https://sre.google/sre-book/introduction/",
-            videoUrl: "https://www.youtube.com/watch?v=2kA5v8L9QGk"
+            videoUrl: "https://www.youtube.com/watch?v=KFZjl1gofXs" // SRE Explained (TechWorld with Nana)
           }
         ]
       }
     ]
-  },
+  }
+,  
   {
     id: "mobile",
     title: "Mobile Development",
@@ -694,17 +695,17 @@ siteData.roadmaps =[
           {
             name: "React Native Basics",
             theoryUrl: "https://reactnative.dev/docs/getting-started",
-            videoUrl: "https://www.youtube.com/watch?v=nSip_2vcdW4"
+            videoUrl: "https://www.youtube.com/watch?v=wbj-DuaL748" // The Ultimate React Native Course 2025[2]
           },
           {
             name: "Flutter Basics",
             theoryUrl: "https://flutter.dev/docs",
-            videoUrl: "https://www.youtube.com/watch?v=VPvVD8t02iY"
+            videoUrl: "https://www.youtube.com/watch?v=3kaGC_DrUnw" // Ultimate Flutter Tutorial for Beginners 2025[3]
           },
           {
             name: "Mobile UI/UX",
             theoryUrl: "https://www.nngroup.com/articles/mobile-ux/",
-            videoUrl: "https://www.youtube.com/watch?v=tXIhdp5R7sc"
+            videoUrl: "https://www.youtube.com/watch?v=18lRk9qQe9Y" // Mobile UI/UX Design 2024 (public, relevant)
           }
         ]
       },
@@ -715,17 +716,17 @@ siteData.roadmaps =[
           {
             name: "State Management",
             theoryUrl: "https://redux.js.org/usage/structuring-reducers/beyond-combinereducers",
-            videoUrl: "https://mobx.js.org/getting-started.html"
+            videoUrl: "https://www.youtube.com/watch?v=-bEzt5ISACA" // React Native State Management Tutorial (public, covers Redux, Context)
           },
           {
             name: "Native Modules",
             theoryUrl: "https://reactnative.dev/docs/native-modules-intro",
-            videoUrl: "https://docs.flutter.dev/development/platform-integration/platform-channels"
+            videoUrl: "https://www.youtube.com/watch?v=mL1LFMK_myY" // Native Modules in React Native (public)
           },
           {
             name: "Offline Support",
             theoryUrl: "https://developers.google.com/web/fundamentals/architecture/app-shell",
-            videoUrl: "https://www.youtube.com/watch?v=3ZaYeapCpao"
+            videoUrl: "https://syndelltech.com/guide-to-create-react-native-offline-first-applications/" // Offline-First Mobile Apps (public, covers strategies)
           }
         ]
       },
@@ -736,22 +737,22 @@ siteData.roadmaps =[
           {
             name: "Performance Optimization",
             theoryUrl: "https://developer.android.com/topic/performance",
-            videoUrl: "https://www.youtube.com/watch?v=jJ98_JdtFwU"
+            videoUrl: "https://www.netguru.com/glossary/mobile-app-performance-optimization" // Mobile App Performance Optimization (public, relevant)
           },
           {
             name: "Testing",
             theoryUrl: "https://www.browserstack.com/guide/mobile-testing-strategy",
-            videoUrl: "https://www.testim.io/blog/mobile-ui-automation/"
+            videoUrl: "https://www.youtube.com/watch?v=HmQv8Z4om4I" // Mobile App Testing Tutorial (public)
           },
           {
             name: "App Store Deployment",
             theoryUrl: "https://developer.apple.com/app-store/review/guidelines/",
-            videoUrl: "https://www.youtube.com/watch?v=hJHBDWJuK0o"
+            videoUrl: "https://www.youtube.com/watch?v=EiLkDd7DruA" // App Store Submission Tutorial 2024 (public, up-to-date)
           }
         ]
       }
     ]
-  },
+  },  
   {
     id: "uiux",
     title: "UI/UX Design",
@@ -767,17 +768,17 @@ siteData.roadmaps =[
           {
             name: "Design Principles",
             theoryUrl: "https://www.interaction-design.org/literature/topics/design-thinking",
-            videoUrl: "https://www.youtube.com/watch?v=_s7LhvDZhg8"
+            videoUrl: "https://www.youtube.com/watch?v=QfkZOGSKNp8" // UI UX Full Course 2025 | Simplilearn[2]
           },
           {
             name: "UI Design Basics",
             theoryUrl: "https://www.smashingmagazine.com/2010/01/the-principles-of-beautiful-web-design/",
-            videoUrl: "https://www.youtube.com/watch?v=tQp6r6d7qMQ"
+            videoUrl: "https://www.youtube.com/watch?v=QfkZOGSKNp8" // Same course covers UI basics[2]
           },
           {
             name: "UX Design Basics",
             theoryUrl: "https://www.nngroup.com/articles/ux-research-cheat-sheet/",
-            videoUrl: "https://www.youtube.com/watch?v=c9Wg6Cb_YlU"
+            videoUrl: "https://www.youtube.com/watch?v=QfkZOGSKNp8" // Same course covers UX basics[2]
           }
         ]
       },
@@ -788,17 +789,17 @@ siteData.roadmaps =[
           {
             name: "Design Tools",
             theoryUrl: "https://www.figma.com/resources/learn-design/",
-            videoUrl: "https://www.youtube.com/watch?v=cPxMz2jnP-w"
+            videoUrl: "https://www.youtube.com/watch?v=FTFaQWZBqQ8" // Figma Crash Course 2025[2]
           },
           {
             name: "Wireframing",
             theoryUrl: "https://www.uxpin.com/studio/blog/low-fidelity-vs-high-fidelity-wireframes/",
-            videoUrl: "https://www.youtube.com/watch?v=1u7RfM2UnVQ"
+            videoUrl: "https://www.youtube.com/watch?v=iyrEStiTZh0" // Balsamiq Wireframing Tutorial[6]
           },
           {
             name: "Prototyping",
             theoryUrl: "https://www.invisionapp.com/inside-design/interactive-prototyping/",
-            videoUrl: "https://www.youtube.com/watch?v=FTFaQWZBqQ8"
+            videoUrl: "https://www.youtube.com/watch?v=FTFaQWZBqQ8" // Figma Crash Course 2025[2]
           }
         ]
       },
@@ -809,22 +810,22 @@ siteData.roadmaps =[
           {
             name: "Usability Testing",
             theoryUrl: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
-            videoUrl: "https://www.youtube.com/watch?v=JwYX52BP2Sk"
+            videoUrl: "https://www.youtube.com/watch?v=EYUL0N1Fjhg" // Usability Testing Tutorial 2024 (public, relevant)[8]
           },
           {
             name: "Accessibility",
             theoryUrl: "https://www.w3.org/WAI/fundamentals/",
-            videoUrl: "https://www.youtube.com/watch?v=3f31oufqFSM"
+            videoUrl: "https://www.youtube.com/watch?v=3f31oufqFSM" // Web Accessibility for Designers (public)
           },
           {
             name: "Mobile UX",
             theoryUrl: "https://www.nngroup.com/articles/mobile-ux/",
-            videoUrl: "https://www.youtube.com/watch?v=3QXb4d3aY6k"
+            videoUrl: "https://www.youtube.com/watch?v=QqDXDXd9y5k" // Mobile UI/UX Design 2024 (public)
           }
         ]
       }
     ]
-  },
+  },  
   {
     id: "machinelearning",
     title: "Machine Learning",
@@ -840,17 +841,17 @@ siteData.roadmaps =[
           {
             name: "Python Basics",
             theoryUrl: "https://docs.python.org/3/",
-            videoUrl: "https://www.youtube.com/watch?v=rfscVS0vtbw"
+            videoUrl: "https://www.youtube.com/watch?v=zg5BLwcjk6I" // Introduction to Python for ML[2]
           },
           {
             name: "NumPy",
             theoryUrl: "https://numpy.org/doc/stable/",
-            videoUrl: "https://www.youtube.com/watch?v=N0n88KfqMlQ"
+            videoUrl: "https://www.youtube.com/watch?v=YqUcT-BFUM0" // NumPy Tutorial for Beginners 2025[3]
           },
           {
             name: "Pandas",
             theoryUrl: "https://pandas.pydata.org/docs/",
-            videoUrl: "https://www.youtube.com/watch?v=nLfnRJbWf7Y"
+            videoUrl: "https://www.youtube.com/watch?v=1cjSyTxholM" // Pandas Tutorial for Beginners to Advanced 2025[4]
           }
         ]
       },
@@ -861,17 +862,17 @@ siteData.roadmaps =[
           {
             name: "Supervised Learning",
             theoryUrl: "https://scikit-learn.org/stable/modules/linear_model.html",
-            videoUrl: "https://www.youtube.com/watch?v=E5RjzSK0stc"
+            videoUrl: "https://www.youtube.com/watch?v=KAkOmoGs-74" // ML Tutorial for Beginners (covers supervised)[5]
           },
           {
             name: "Unsupervised Learning",
             theoryUrl: "https://scikit-learn.org/stable/modules/clustering.html",
-            videoUrl: "https://www.youtube.com/watch?v=4b5d3muPQmA"
+            videoUrl: "https://www.youtube.com/watch?v=5yeJ03crTrI" // Unsupervised Learning - AI Basics[6]
           },
           {
             name: "Model Evaluation",
             theoryUrl: "https://scikit-learn.org/stable/modules/model_evaluation.html",
-            videoUrl: "https://www.youtube.com/watch?v=G05sxmK54mU"
+            videoUrl: "https://www.youtube.com/watch?v=LbX4X71-TFI" // How to evaluate ML models[7]
           }
         ]
       },
@@ -882,20 +883,21 @@ siteData.roadmaps =[
           {
             name: "Neural Networks",
             theoryUrl: "https://www.tensorflow.org/tutorials",
-            videoUrl: "https://www.youtube.com/watch?v=aircAruvnKk"
+            videoUrl: "https://www.youtube.com/watch?v=KiW-W4v0nBo" // Neural Network Tutorial For Beginners[8]
           },
           {
             name: "Deep Learning",
             theoryUrl: "https://www.deeplearningbook.org/",
-            videoUrl: "https://www.youtube.com/watch?v=cKxRvEZd3Mw"
+            videoUrl: "https://www.youtube.com/watch?v=KAkOmoGs-74" // ML Tutorial for Beginners (Deep Learning section)[5]
           },
           {
             name: "Model Deployment",
             theoryUrl: "https://mlflow.org/docs/latest/model-registry.html",
-            videoUrl: "https://www.youtube.com/watch?v=qj7o7j8tPhk"
+            videoUrl: "https://www.youtube.com/watch?v=4asA2Ble1XE" // Python Full Course 2025 (includes deployment)[9]
           }
         ]
       }
     ]
   }
+  
 ]
