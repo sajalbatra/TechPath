@@ -43,7 +43,7 @@ Welcome to **TechPath**, a developer-centric platform to help you break into tec
 | **Sonner**     | Toast Notifications              |
 | **CMDK**       | Command Menu                     |
 
-#💻 Tech Stack (In-Depth)
+##💻 Tech Stack (In-Depth)
 
 | Tech/Libraries                                | Purpose & Role                                                                                                                                         |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
